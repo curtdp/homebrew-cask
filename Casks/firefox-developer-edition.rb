@@ -139,9 +139,9 @@ cask 'firefox-developer-edition' do
                '/Library/Logs/DiagnosticReports/firefox_*',
                '~/Library/Application Support/Firefox',
                '~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.mozilla.firefox.sfl*',
-               '~/Library/Caches/Firefox',
-               '~/Library/Caches/Mozilla/updates/Applications/Firefox',
-               '~/Library/Preferences/org.mozilla.firefox.plist',
+               '~/Library/Caches/Firefox\ Developer\ Edition',
+               '~/Library/Caches/Mozilla/updates/Applications/Firefox\ Developer\ Edition',
+               '~/Library/Preferences/org.mozilla.firefoxdeveloperedition.plist',
              ],
       rmdir: [
                '~/Library/Application Support/Mozilla', #  May also contain non-Firefox data
